@@ -14,7 +14,8 @@ body{
 .hero_container{
     position: relative;
     width: 100%;
-    height: 200px;
+    height: 100px;
+    padding-top: 25px;
     background-image: url("https://image.shutterstock.com/image-photo/abstract-dark-blue-template-background-260nw-603195212.jpg");
 }
 
@@ -22,28 +23,16 @@ body{
     color:azure;
     letter-spacing: 2pt;
     font-size: 30px;
-    position: absolute;
-    left: 540px;
-    bottom: 90px;
-}
-
-.navbar{
-    margin-top: 5px;
-    padding: 8px;
-    background-color: #1683B2;
-}
-
-.navbar_list{
-    color: azure;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 25px;
 }
 
-#nav1:hover, #nav2:hover, #nav3:hover, #nav4:hover, #nav5:hover, #nav6:hover{
+.nav-link{
+    color: azure;
+}
+
+.nav-link:hover{
     font-weight: bold;
     text-decoration: underline;
-    cursor: pointer;
 }
