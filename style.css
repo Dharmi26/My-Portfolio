@@ -16,7 +16,8 @@ body{
     width: 100%;
     height: 100px;
     padding-top: 25px;
-    background-image: url("https://image.shutterstock.com/image-photo/abstract-dark-blue-template-background-260nw-603195212.jpg");
+    background-image: url("https://images.squarespace-cdn.com/content/v1/60cb4944994297692686a3ec/1624302820848-85A0NLQKTKMEN30J30U0/Portfolio+%2B+Blog+Banner.png?format=2500w");
+    /* background-image: url("https://image.shutterstock.com/image-photo/abstract-dark-blue-template-background-260nw-603195212.jpg"); */
 }
 
 .hero_content{
@@ -34,5 +35,12 @@ body{
 
 .nav-link:hover{
     font-weight: bold;
-    text-decoration: underline;
+}
+
+#educationimg{
+    opacity: 0.6;
+}
+
+#education{
+    background-image: url("educationbg1.png");
 }
