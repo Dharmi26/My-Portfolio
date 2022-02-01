@@ -4,43 +4,37 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-
 body{
     width: 100%;
     height: 100%;
-    background-color: azure;
 }
-
+header{
+    background-image: linear-gradient(to top, white
+    , rgb(201, 233, 233),rgba(15, 106, 148, 0.603));
+}
+#education{
+    background-image: linear-gradient(to top, white
+    , rgb(201, 233, 233),white);
+}
+#eduhover:hover{
+    color: black;
+}
+#educationimg{
+    opacity: 0.6;
+}
 .hero_container{
     position: relative;
     width: 100%;
     height: 100px;
     padding-top: 25px;
-    background-image: url("https://images.squarespace-cdn.com/content/v1/60cb4944994297692686a3ec/1624302820848-85A0NLQKTKMEN30J30U0/Portfolio+%2B+Blog+Banner.png?format=2500w");
-    /* background-image: url("https://image.shutterstock.com/image-photo/abstract-dark-blue-template-background-260nw-603195212.jpg"); */
 }
-
 .hero_content{
-    color:azure;
     letter-spacing: 2pt;
     font-size: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-.nav-link{
-    color: azure;
-}
-
 .nav-link:hover{
-    font-weight: bold;
-}
-
-#educationimg{
-    opacity: 0.6;
-}
-
-#education{
-    background-image: url("educationbg1.png");
+    text-decoration: underline;
 }
